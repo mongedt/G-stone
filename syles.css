@@ -1,0 +1,75 @@
+body{
+ background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+a{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color:yellow;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+img{
+    width: 200px;
+    position: absolute;
+}
+img{
+left: 100px;
+position: relative;
+}
+/*
+صصوره G-stone
+*/
+[alt="g12"]{
+    width: 200px;
+position: absolute;
+right: 50px;
+left: 4px;
+}
+/**/
+
+
+
+
+div.free{
+    bottom: 100px;
+    width: 60px;
+    height: 18px;
+    background-color: red;
+    position: absolute; /* يجب أن يكون العنصر position: absolute */
+    animation: 2s infinite;
+animation-name: free;
+}
+@keyframes free{
+    0% {
+        left: 0;
+        rotate: 0 0;
+      }
+      100% {
+        left: 500px;
+        rotate: 700deg;
+      }
+    }
+    
